@@ -1,0 +1,28 @@
+<module>
+	<data>
+		<module_id>multiplephoto</module_id>
+		<product_id>MultiplePhoto</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>0</is_menu>
+		<menu />
+		<phrase_var_name>multiplephoto</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="multiplephoto" is_hidden="0" type="integer" var_name="total_limit" phrase_var_name="howmany_photos" ordering="2" version_id="3.7.7">100</setting>
+		<setting group="" module_id="multiplephoto" is_hidden="0" type="boolean" var_name="add_to_photo_section" phrase_var_name="add_to_photo_section" ordering="3" version_id="3.7.7">1</setting>
+		<setting group="" module_id="multiplephoto" is_hidden="0" type="boolean" var_name="on" phrase_var_name="is_on" ordering="1" version_id="3.7.7">1</setting>
+	</settings>
+	<phrases>
+		<phrase module_id="multiplephoto" version_id="2.0.2" var_name="is_on" added="1264611909"><![CDATA[<title>Multiple photo upload via feed</title><info>Enable this setting to allow your users to select multiple photos to upload via feed form.</info>]]></phrase>
+		<phrase module_id="multiplephoto" version_id="2.0.2" var_name="howmany_photos" added="1264611909"><![CDATA[<title></title><info>How many photos the user should be able to select at once?</info>]]></phrase>
+		<phrase module_id="multiplephoto" version_id="2.0.2" var_name="add_to_photo_section" added="1264611909"><![CDATA[<title></title><info>Enable this setting to display photos uploaded via feed form in the main photo section of your site.</info>]]></phrase>
+		<phrase module_id="multiplephoto" version_id="2.0.4" var_name="too_many_files" added="1269931863">Too many files selected. The limit is</phrase>
+		<phrase module_id="multiplephoto" version_id="2.0.4" var_name="cancel" added="1269931863">Cancel</phrase>
+		<phrase module_id="multiplephoto" version_id="2.0.4" var_name="attach" added="1269931863"><![CDATA[Ch&#7885;n &#7843;nh &#273;&#7875; t&#7843;i l&#234;n, b&#7841;n c&#243; th&#7875; t&#7843;i l&#234;n c&#249;ng l&#250;c nhi&#7873;u h&#236;nh &#7843;nh kh&#225;c nhau]]></phrase>
+		<phrase module_id="multiplephoto" version_id="3.0.0beta3" var_name="user_setting_can_upload_multiple_photos" added="1315737678">Can members of this group be able to upload multiple photos using the feed form?</phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="multiplephoto" type="boolean" admin="1" user="1" guest="0" staff="1" module="multiplephoto" ordering="1">can_upload_multiple_photos</setting>
+	</user_group_settings>
+</module>
